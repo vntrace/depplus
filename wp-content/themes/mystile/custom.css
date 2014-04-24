@@ -1,0 +1,361 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go here */
+}
+
+#breadcrumbs .trail-end {
+	color: #FFF;
+}
+
+.site-title a {
+	color: #F9F2E7;
+}
+
+.entry {
+	font-size: 16px;
+}
+
+.entry ul {
+	margin-left: 30px;
+}
+
+.entry a {
+	/*color: #ac7953;*/
+}
+
+.post header h1 a {
+	color: #ac7953;
+}
+
+.post header h1 a:hover {
+	color: #469C1A;
+}
+
+.post .post-meta li a, 
+.type-page .post-meta li a {
+	color: #F9F2E7;
+}
+
+#header hgroup {
+	margin-bottom: 0;
+}
+
+.product-categories > li > a img {
+	width: 25px;
+	height: 25px;
+}
+
+.widget h3 {
+	font-size: 16px;
+	font-family: "Bree Serif", sans-serif;
+	text-transform: uppercase;
+}
+
+.product-categories a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #F9F2E7;
+}
+
+.product-categories a:hover {
+	color: #ac7953;
+}
+
+#main .page-title {
+	display: block;
+	padding: 0;
+	background-color: transparent;
+}
+
+ul.products li.product h3 {
+	font-size: 1em;
+}
+
+.woocommerce-review-link {
+	color: #ac7953;
+}
+
+.my-slider .slider-wrapper{
+	background-color: transparent !important;
+	padding: 0 !important;
+}
+
+.commentlist li.comment .comment_container div.description p {
+	color: rgb(153, 153, 153);
+}
+
+.product h3.comment-reply-title {
+	color: #469C1A;
+}
+
+.woocommerce_message,
+.woocommerce-message {
+	color: #ac7953;
+}
+
+header.title {
+	border: 1px dotted #F9F2E7;
+	padding: 0 5px;
+}
+
+.woocommerce h2 {
+	padding: 5px 5px;
+}
+
+.woocommerce-info {
+	color: #469C1A;
+}
+
+.woocommerce-billing-fields h3,
+.woocommerce-shipping-fields h3,
+#order_review_heading {
+	padding: 0 5px;
+}
+
+#order_review_heading {
+	padding: 0 5px;
+}
+
+#order_review {
+	color: #ac7953;
+}
+
+.woocommerce-error {
+	color: rgb(184, 95, 86);
+}
+
+.type-post .meta .day {
+	color: #469C1A;
+}
+
+/*Category dropdown*/
+.product-categories .children {
+	display: none;
+}
+
+.product-categories li {
+	transition: height 1s ease 1s;
+}
+
+.contact-nav {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.contact-nav li {
+	padding-top: 1.087em;
+	margin-right: 20px;
+	float: left;
+	list-style-type: none;
+	list-style: none;
+}
+
+.contact-nav li a:hover {
+	text-decoration: underline;
+}
+
+.entry-content,
+.entry-content h2 {
+	color: #666666;
+}
+
+#logo img {
+	max-width: 369px;
+	max-height: 82px;
+	width: 100%;
+	height: 100%;
+}
+
+#content {
+	margin-top: 1.3em;
+	background-color: #FFF;
+	/*padding: 1em;*/
+	max-width: 100%;
+}
+
+.my_contact {
+	font-size: 1.5em;
+	background-color: #5C9C01;
+	border-radius: 10px;
+	padding: 5px;
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	color: rgb(255, 148, 148);
+}
+
+#tab-reviews {
+	float: left;
+}
+
+#tab-reviews #respond {
+	float: left;
+}
+
+.checkout #order_review .form-row.place-order .form-row.terms label a {
+	color: #76B51B;
+}
+
+#top-nav {
+	background-color: #272727;
+	color: #FFF;
+	width: 100%;
+}
+
+#top-nav li:hover a {
+	color: #76b51b;
+}
+
+#top-nav li a {
+	color: #FFF;
+}
+
+#mobileMenu_top-nav {
+	height: 40px;
+	width: 100%;
+}
+
+#top, 
+#header,
+.footer-wrap {
+	padding: 0;
+	margin: 0;
+}
+
+#main {
+	padding: 1em 0 0 1em;
+}
+
+#sidebar {
+	padding: 1em 1em 0 0;
+}
+
+#footer-widgets.col-4 .footer-widget-1 {
+	margin-left: 1em;
+}
+
+#footer-widgets .block {
+	margin-right: 2.5%;
+}
+
+#copyright {
+	margin-left: 1em;
+}
+
+.footer-wrap {
+	margin: 1em auto;
+	width: 98%;
+}
+
+#breadcrumbs {
+	padding: 1em;
+}
+
+#hotline {
+	width: 145px; 
+	margin-top: 10px; 
+	float: right;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.primary-slider,
+.second-slider {
+	margin-top: 1em;
+}
+
+#woo_slider .col-left {
+	width: 68%;
+}
+
+#woo_slider .col-right {
+	width: 32%;
+}
+
+.entry ol {
+	margin-left: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1040px) {
+  	.contact-nav li a {
+  		display: none;
+  	}
+
+  	ul.nav li a {
+  		color: #5c9c01;
+  	}
+}
+
+@media only screen and (max-width: 768px) {
+  	#top-nav {
+  		display: none;
+  	}
+
+  	#content {
+  		margin-top: 0;
+  	}
+
+  	#header {
+  		margin-bottom: 1em;
+  	}
+
+  	#main {
+  		padding: 1em;
+  	}
+
+  	#sidebar {
+  		padding: 1em;
+  	}
+
+  	.footer-wrap {
+  		width: 100%;
+  	}
+
+  	#footer-widgets {
+  		padding: 0;
+  	}
+
+  	.footer-widget-1,
+  	.footer-widget-2,
+  	.footer-widget-3,
+  	.footer-widget-4 {
+  		margin: 0 0 1em 0 !important;
+  		background-color: #FFF;
+  		padding: 1em;
+  	}
+
+  	#hotline {
+  		position: absolute;
+		left: 50%;
+		top: 0;
+  	}
+
+  	#woo_slider .col-left {
+		width: 100%;
+	}
+
+	#woo_slider .col-right {
+		width: 100%;
+	}
+}
